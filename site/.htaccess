@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} =nfm
+RewriteCond $1 !^(index\.php|images|css|icones|scripts|cache|dev|temp|templates|cgi|robots\.txt)
+RewriteRule ^(.*)$ /index.php?url=$1 [L]
+
+RewriteCond %{HTTP_HOST} =nfmdebug
+RewriteCond $1 !^(index_debug\.php|images|css|icones|scripts|cache|dev|temp|templates|cgi|robots\.txt)
+RewriteRule ^(.*)$ /index_debug.php?url=$1 [L]
+
+
+

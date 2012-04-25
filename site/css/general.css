@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: verdana, arial, sans-serif;
+}
+#notification{
+	position: fixed;
+	left: 0;
+	top:0;
+	background: yellow;
+	width: 100%;
+}
+
+a:visited{
+	color: blue;
+}
+a:focus{
+	outline: none;
+}
+
+#main{
+	width : 955px;
+	padding: 5px;
+	margin: auto;
+	border : 1px black solid;
+}
+#footer{
+	text-align: right;
+}
