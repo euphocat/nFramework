@@ -5,7 +5,7 @@
  */
 //define("RACINE",'D:/travail/nicoframework/');
 //define("RACINE",'E:/workspace/nicoframework/trunk/');
-define("RACINE",'/home/nicolas/workspace/nicoframework/');
+define("RACINE",'/home/nicolas/workspace/nFramework/');
 
 
 /**
