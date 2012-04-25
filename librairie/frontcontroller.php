@@ -132,7 +132,7 @@ class FrontController{
 		}
 	}
 	/**
-	 * @todo mettre en forme tout ça
+	 * Gestion des exceptions non attrapées
 	 */
 	public static function exception_handler(\Exception $exception){
 		if(DEBUG){ 
@@ -143,7 +143,6 @@ class FrontController{
 		}
 	}
 	/**
-	 * @todo écrire cette fonction
 	 * Cherche si l'URL fait partie un routage défini
 	 * 
 	 * @return bool
